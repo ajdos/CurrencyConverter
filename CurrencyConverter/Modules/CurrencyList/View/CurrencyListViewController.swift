@@ -8,13 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol CurrencyListViewInput: class {
+    
+}
 
+class CurrencyListViewController: UIViewController {
+
+    var presenter: CurrencyListViewOutput?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
 }
 
+extension CurrencyListViewController: CurrencyListViewInput {
+    
+}

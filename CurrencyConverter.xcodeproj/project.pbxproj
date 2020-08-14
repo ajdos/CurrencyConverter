@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4B0CB724E6CC440037C73E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4B0CB624E6CC440037C73E /* NetworkManager.swift */; };
 		1E4DD8B324E6BEB000880618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DD8B224E6BEB000880618 /* AppDelegate.swift */; };
 		1E4DD8B724E6BEB000880618 /* CurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4DD8B624E6BEB000880618 /* CurrencyListViewController.swift */; };
 		1E4DD8BC24E6BEB700880618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4DD8BB24E6BEB700880618 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E4B0CB624E6CC440037C73E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1E4DD8AF24E6BEB000880618 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4DD8B224E6BEB000880618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E4DD8B624E6BEB000880618 /* CurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		1E4DD8D724E6C11700880618 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1E4B0CB624E6CC440037C73E /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4B0CB724E6CC440037C73E /* NetworkManager.swift in Sources */,
 				1E4DD8B724E6BEB000880618 /* CurrencyListViewController.swift in Sources */,
 				1E4DD8E224E6C2DC00880618 /* CurrencyListInteractor.swift in Sources */,
 				1E4DD8E024E6C2C700880618 /* CurrencyListPresenter.swift in Sources */,
